@@ -1,3 +1,2 @@
-# Nuxt JS Crash course
+# Chat for Serenity test task created on Nuxt.js framework.
 
-Video is here: https://youtu.be/lm9olMCRCIc
