@@ -5,8 +5,8 @@
   "author": "Chebykin Alexander",
   "private": true,
   "scripts": {
-    "dev2":"nuxt",
-    "dev":"npm-run-all --parallel start-json-server dev2",
+    "dev2": "nuxt",
+    "dev": "npm-run-all --parallel start-json-server dev2",
     "build": "nuxt build",
     "start2": "nuxt start",
     "start": "npm-run-all --parallel start-json-server start2",
