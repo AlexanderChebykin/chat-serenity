@@ -1,0 +1,28 @@
+{
+  "name": "serenity-test-chat",
+  "version": "1.0.0",
+  "description": "Simple chat for Serenity test task worked on Nuxt",
+  "author": "Chebykin Alexander",
+  "private": true,
+  "scripts": {
+    "dev2":"nuxt",
+    "dev":"npm-run-all --parallel start-json-server dev2",
+    "build": "nuxt build",
+    "start2": "nuxt start",
+    "start": "npm-run-all --parallel start-json-server start2",
+    "generate": "nuxt generate",
+    "start-json-server": "json-server db.json"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.4.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.15.0",
+    "cross-env": "^5.2.0",
+    "npm-run-all": "^4.1.5",
+    "nuxt": "^2.13.3",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
